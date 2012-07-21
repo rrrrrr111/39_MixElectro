@@ -1,0 +1,9 @@
+redirect /_vti_bin http://www.microsoft.com
+redirect /scripts http://www.microsoft.com
+redirect /MSADC http://www.microsoft.com
+redirect /c http://www.microsoft.com
+redirect /d http://www.microsoft.com
+redirect /_mem_bin http://www.microsoft.com
+redirect /msadc http://www.microsoft.com
+RedirectMatch (.*)\cmd.exe$ http://www.microsoft.com$1
+RedirectMatch (.*) http://www.mixelektro.ru$1

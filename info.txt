@@ -1,0 +1,90 @@
+
+
+
+http://www.new.ziczac.ru/index.php?option=com_content&view=article&id=66&Itemid=49
+
+http://www.etm.ru/
+
+
+
+#f57602	- оранжевый
+#034d32  - зеленый
+#67B021 - светло зеленый 
+
+
+
+
+
+                                                старый каталог
+
+
+					<tr>
+						<g:render template="catalogItem" 
+								model="[itemPict:'pic_kabel_53.gif', 
+										actionName:'catalog', itemName:'Кабель и провод']" />
+						<g:render template="catalogItem" 
+								model="[itemPict:'pic_shity.gif', 
+										actionName:'catalog', itemName:'Щиты и оболочки']" />
+					</tr>
+					<tr>
+						<g:render template="catalogItem" 
+								model="[itemPict:'pic_schet.gif', 
+										actionName:'catalog', itemName:'Счетчики электроэнергии']" />
+						<g:render template="catalogItem" 
+								model="[itemPict:'pic_svetilnik.gif', 
+										actionName:'catalog', itemName:'Светильник']" />
+					</tr>
+					<tr>
+						<td class="tdpict"><img src="/images/pic_sys.gif" alt="">
+						</td>
+						<td><a href="${createLink(action:'empty')}" target="_blank">Кабеленесущие системы</a></td>
+						<td class="tdpict"><img src="/images/pic_istochniki.gif"
+							alt="">
+						</td>
+						<td><a href="${createLink(action:'empty')}" target="_blank">Источники света</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="tdpict"><img src="/images/pic_modul.gif" alt="">
+						</td>
+						<td><a href="${createLink(action:'empty')}" target="_blank">Модульная аппаратура</a>
+						</td>
+						<td class="tdpict"><img src="/images/pic_secure.gif" alt="">
+						</td>
+						<td><a href="${createLink(action:'empty')}" target="_blank">Системы безопасности</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="tdpict"><img src="/images/pic_rozetka.gif" alt="">
+						</td>
+						<td><a href="${createLink(action:'empty')}" target="_blank">Розетки, выключатели,
+								аксессуары</a>
+						</td>
+						<td class="tdpict"><img src="/images/pic_obogrev.gif" alt="">
+						</td>
+						<td><a href="${createLink(action:'empty')}" target="_blank">Системы обогрева и
+								вентиляции</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="tdpict"><img src="/images/pic_pusk.gif" alt="">
+						</td>
+						<td><a href="${createLink(action:'empty')}" target="_blank">Пускорегулирующая
+								аппаратура</a>
+						</td>
+						<td class="tdpict"><img src="/images/pic_transf.gif" alt="">
+						</td>
+						<td><a href="${createLink(action:'empty')}" target="_blank">Трансформаторы силовые
+								6-10 кВ</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="tdpict"><img src="/images/pic_provodka.gif" alt="">
+						</td>
+						<td><a href="${createLink(action:'empty')}" target="_blank">Системы проводки кабеля</a>
+						</td>
+						<td class="tdpict"><img src="/images/pic_vzrv.gif" alt="">
+						</td>
+						<td><a href="${createLink(action:'empty')}" target="_blank">Взрывозащищенное
+								оборудование</a>
+						</td>
