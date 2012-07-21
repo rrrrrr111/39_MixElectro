@@ -1,0 +1,428 @@
+/* ======================================================================= */
+/* ========================== MIXEL STYLES  ============================== */
+/* ======================================================================= */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+	{
+	margin: 0;
+	padding: 0;
+}
+
+html,body,.wrapper {
+	height: 100%;
+}
+
+body {
+	font: 62.5% Tahoma, Arial, sans-serif;
+	line-height: 1.8em;
+	color: #333;
+	background: #fff url(/images/stl/bgbody.png) 0 0 repeat-x;
+}
+
+img {
+	border: none;
+}
+
+a:hover {
+	color: #217fde;
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table td {
+	vertical-align: top;
+}
+
+h1,h2,h3,h4,h5 {
+	font: 1.3em Verdana, sans-serif;
+}
+/* ======================================================================= */
+/* ========================== BASIC ====================================== */
+/* ======================================================================= */
+.cleaner {
+	clear: both !important;
+	float: none !important;
+	height: 1px;
+	font-size: 1px;
+	line-height: 1px;
+	border: none !important;
+}
+/* ======================= Базовый контейнер ============= */
+.wrapper {
+	min-width: 1000px;
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	font-size: 1.2em !important;
+	background: #FFF url(/images/stl/bg.jpg) 50% top no-repeat;
+}
+
+.content {
+	padding: 0 0 13em 0;
+	width: 100%;
+	position: relative;
+}
+/* ======================================================================= */
+/* ====== Header  ======================================================== */
+/* ======================================================================= */
+.header-content {
+	min-height: 100%;
+	width: 980px;
+	margin: 0 auto;
+}
+
+.header {
+	position: relative;
+	min-height: 124px;
+	width: 100%;
+}
+/* ====== логотип  ============================== */
+.header .logo {
+	margin: 3px 0 0 0;
+	float: left;
+	display: block;
+	width: 330px;
+	height: 80px;
+}
+/* ====== 4 кнопочки в заголовке, домой, карта и т.д. ==================== */
+.header .nav {
+	float: left;
+	margin-left: 165px;
+}
+
+.header .nav img {
+	width: 12px;
+	height: 10px;
+	display: block;
+}
+
+.header .nav ul {
+	margin: 41px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+.header .nav ul li {
+	display: inline-block;
+	margin: 0 11px;
+	vertical-align: top;
+}
+/* ====== строка поиска  ============================== */
+.header .search {
+	float: right;
+	overflow: hidden;
+	margin: 10px 28px 0 0;
+}
+
+.header .search #search {
+	border: 1px solid #a5acb2;
+	background-color: #FFF;
+	color: #666666;
+	font-size: 11px;
+	padding: 2px 6px 3px;
+	width: 220px;
+}
+
+.header .search #f_search {
+	clear: both;
+	float: right;
+	white-space: nowrap;
+}
+
+.header .search #b_search {
+	width: 21px;
+	height: 20px;
+	vertical-align: -6px;
+}
+/* ======================================================================= */
+/* ========================== Верхняя карусель =========================== */
+/* ======================================================================= */
+.content #corusel {
+	width: 970px;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.content #corusel div {
+	width: 9000px;
+	overflow: hidden;
+}
+
+.content #corusel img {
+	display: block;
+}
+
+.content #corusel div img {
+	float: left;
+}
+
+.content #corusel #listcorusel {
+	position: absolute;
+	left: 20px;
+	bottom: 8px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.content #corusel #listcorusel li {
+	display: inline-block;
+	vertical-align: middle;
+	width: 29px;
+	height: 24px;
+	color: #034d32;
+	font: 1.3em Arial, sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 5px 0 0 0;
+	margin: 0 10px 0 0;
+	text-align: center;
+	background: url(/images/stl/bglistcorusel_back.png) 0 0 no-repeat;
+}
+
+.content #corusel #listcorusel .curr {
+	background: url(/images/stl/bglistcorusel.png) 0 0 no-repeat;
+	color: #67B021;
+	cursor: default;
+}
+
+/* ======================================================================= */
+/* =================== Первая страница, колонка 1 ======================== */
+/* ======================================================================= */
+.content .column1 {
+	float: left;
+	margin: 27px 20px 50px 0;
+	width: 296px;
+	font-size: 0.9em;
+	line-height: 1.6em;
+}
+
+.content .column1 h1 {
+	color: #f57602;
+	font-weight: normal;
+	padding-left: 12px;
+	background: url(/images/stl/arrow.gif) left bottom no-repeat;
+	font-size: 1.8em;
+}
+
+.content .column1 .pict a {
+	margin: 17px 0 0 20px;
+	float: left;
+}
+
+.content .column1 .pict img,.pict a {
+	display: block;
+	width: 136px;
+	height: 80px;
+	position: relative;
+}
+/* ======================================================================= */
+/* =================== Первая страница, колонка 2 ======================== */
+/* ======================================================================= */
+.content .column2 {
+	float: left;
+	width: 728px;
+	margin-top: 38px;
+}
+
+.content .column2 h1 {
+	color: #f57602;
+	font-weight: normal;
+	font-size: 1.7em;
+	text-align: center;
+	margin: -27px auto 20px;
+	background-color: #FFF;
+	position: relative;
+	width: 85%;
+}
+
+.content .column2 .catalog {
+	border: 2px solid #034d32;
+	margin-bottom: 8px;
+	padding: 10px 7px;
+	position: relative;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	behavior: url(/css/PIE.htc);
+}
+
+.content .column2 .catalog .cat {
+	width: 90%;
+	font-size: 0.9em;
+	line-height: 1.3em;
+	margin: 0px 50px 0px 50px;
+}
+
+.content .column2 .catalog .cat td {
+	padding: 0 7px 4px 0;
+	vertical-align: middle;
+}
+
+.content .column2 .catalog .cat .tdpict {
+	width: 19px;
+	text-align: center;
+	padding: 0 4px 10px 3px;
+}
+
+.content .column2 .catalog .allcat {
+	width: 125px;
+	margin: 12px auto 0;
+	padding: 13px 0 0 5px;
+	color: #034d32;
+	font: 1.4em 'segoe ui', Arial, sans-serif;
+	min-height: 57px;
+}
+
+/* ======================================================================= */
+/* ====== Footer, нижняя карусель (.brands) ============================== */
+/* ======================================================================= */
+.footer {
+	position: relative;
+	min-height: 153px;
+	clear: both;
+	margin: -154px auto 0;
+	width: 980px;
+	font-size: 0.9em;
+	color: #666666;
+}
+
+.footer .brands {
+	border: 1px solid #ccc;
+	margin: 0 auto 20px auto;
+	padding: 24px 9px;
+	position: relative;
+	overflow: hidden;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	behavior: url(/css/PIE.htc);
+}
+
+.footer .brands ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: left;
+	width: 20000px;
+}
+
+.footer .brands ul li {
+	display: inline-block;
+	margin: 0 14px;
+	padding: 0;
+	vertical-align: middle;
+	opacity: 0.3;
+	filter: alpha(opacity = 30);
+	font-size: 1px;
+	line-height: 1px;
+}
+
+/* ======================================================================= */
+/* ============== Каталог ================================================ */
+/* ======================================================================= */
+.catLink {
+	color: #034d32;
+	text-decoration: none;
+}
+
+.catItem {
+	margin-top: 7px;
+	font: 'segoe ui', Arial, sans-serif;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.subItem {
+	font: 'segoe ui', Arial, sans-serif;
+	font-size: 12px;
+}
+
+.subSubItem {
+	font: 'segoe ui', Arial, sans-serif;
+	font-size: 12px;
+	margin-left: 18px;
+}
+/* динамически появляющийся подпункт меню */
+.dynSubItem,.dynSubSubItem {
+	display: none;
+}
+
+.itemLink {
+	text-decoration: none;
+	color: #034d32;
+}
+
+.product {
+	margin: 5px;
+	font-size: 12px;
+	font: bold;
+	color: #f57602;
+}
+
+.colorRed {
+	color: red;
+}
+/* не отображать */
+.notDisplay {
+	display: none;
+}
+/* картинка типа загрузка на всех страницах */
+#loading {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 300px;
+}
+/* картинка типа загрузка в каталоге */
+.loadingCatalog {
+	width: 100%;
+	text-align: center;
+}
+/* ======================================================================= */
+/* ========================== Общие элементы ============================= */
+/* ======================================================================= */
+.infoText { /* 	font: bold; */
+	color: #034d32;
+	font-size: 12px;
+}
+
+.infoBoldText {
+	font: bold;
+	color: #034d32;
+	font-size: 14px;
+}
+
+.headerPhone {
+	position: absolute;
+	right: 400px;
+}
+/* ======================================================================= */
+/* ========================== Страница с ошибкой ========================= */
+/* ======================================================================= */
+.message {
+	border: 1px solid black;
+	padding: 5px;
+	background-color: #E9E9E9;
+}
+
+.stack {
+	border: 1px solid black;
+	padding: 5px;
+	overflow: auto;
+	height: 300px;
+}
+
+.snippet {
+	padding: 5px;
+	background-color: white;
+	border: 1px solid black;
+	margin: 3px;
+	font-family: courier;
+}
+/* ======================================================================= */
+/* ======================================================================= */

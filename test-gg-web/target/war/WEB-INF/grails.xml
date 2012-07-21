@@ -1,0 +1,36 @@
+<grails>
+  <resources>
+    <resource>org.grails.appengine.AppEngineReloadController</resource>
+    <resource>BootStrap</resource>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>resources</resource>
+    <resource>UrlMappings</resource>
+    <resource>ru.roman.mixel.dao.CatalogMenuItemController</resource>
+    <resource>ru.roman.mixel.dao.MainMenuController</resource>
+    <resource>ru.roman.mixel.dao.NewsController</resource>
+    <resource>ru.roman.mixel.dao.PartnerController</resource>
+    <resource>ru.roman.mixel.dao.ProductController</resource>
+    <resource>ru.roman.mixel.dao.security.AppRoleController</resource>
+    <resource>ru.roman.mixel.dao.security.AppUserController</resource>
+    <resource>ru.roman.mixel.web.CatalogController</resource>
+    <resource>ru.roman.mixel.web.MainPageController</resource>
+    <resource>test.gg.web.HelloWorldController</resource>
+    <resource>ru.roman.mixel.dao.CatalogMenuItem</resource>
+    <resource>ru.roman.mixel.dao.MainMenu</resource>
+    <resource>ru.roman.mixel.dao.News</resource>
+    <resource>ru.roman.mixel.dao.Partner</resource>
+    <resource>ru.roman.mixel.dao.Product</resource>
+    <resource>ru.roman.mixel.dao.security.AppRole</resource>
+    <resource>ru.roman.mixel.dao.security.AppUser</resource>
+    <resource>ru.roman.mixel.srv.CacheService</resource>
+    <resource>ru.roman.mixel.srv.DaoService</resource>
+    <resource>ru.roman.mixel.srv.DataService</resource>
+    <resource>ru.roman.mixel.tl.CommonTagLib</resource>
+  </resources>
+  <plugins>
+    <plugin>AppEngineGrailsPlugin</plugin>
+    <plugin>GormJpaGrailsPlugin</plugin>
+  </plugins>
+</grails>
